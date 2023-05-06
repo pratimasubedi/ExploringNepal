@@ -1,0 +1,34 @@
+.rachana{
+    border: 1px solid #fff;
+    height:100px;
+}
+
+.video-detail-section{
+padding: 50px 0;
+	box-shadow: 0 3px 3px 0;
+	margin-bottom: 10px;
+
+}
+
+.videos h4{
+    text-shadow:2px 2px 4px #000;
+    color:#fff;
+    font-size:42px;
+    text-align:center;
+    margin-top:50px;
+    margin-bottom:50px;
+}
+
+.Sreejal-1{
+	display: inline-block;
+	margin-right:5%;
+	margin-bottom: 5%;
+	
+}
+.Sreejal{
+	display: inline-block;
+	margin-right: 5%;
+	margin-left:10%;
+	margin-bottom: 5%;
+	
+}

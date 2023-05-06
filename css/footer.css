@@ -1,0 +1,254 @@
+
+.footer-1 {
+      background: linear-gradient(to right, #fa9e1b, #8d4fff);
+    margin-top: 70px;
+    margin-bottom: -16px;
+    padding:1px  30px 10px 30px;
+}
+.f1 {
+    display: inline-block;
+    margin-right:60px;
+    width: 75%;
+    text-decoration: none;
+    outline: none;
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+    color: #fff;
+    font-weight: bold;
+    
+
+}
+.f2{
+  display: inline-block;
+  border: 2px solid #fff;
+  padding:15px;
+ 
+}
+
+.f2 a{
+   text-decoration: none;
+   font-size:22px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.footer-footer{
+  height: auto;
+    border-top:1px solid #fff;
+   background-color: #9756EB;
+  padding: 20px 0px;
+  
+}
+.footer-icon{
+  width: 100%;
+  height: auto;
+  margin: auto;
+}
+.footer-icon ul{
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+}
+
+.footer-icon ul li{
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  margin: 0px 10px;
+  border-radius: 100%;
+  background:#fff; 
+}
+.footer-icon ul li a{
+  text-decoration: none;
+  color:#000;
+  font-size: 25px;
+  display: block;
+}
+.footer-icon ul li a i{
+  line-height: 50px;
+}
+.footer-icon ul li:hover{
+  background: #888;
+
+}
+.footer-icon ul li a:hover >i{
+  transform: scale(1.6) rotate(25deg);
+}
+.footer-nav{
+  width: 100%;
+  height: auto;
+  margin: auto;
+  margin-top: 25px;
+}
+.footer-nav ul{
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+}
+
+
+.footer-nav ul li{
+  display: inline-block;
+  margin: 10px 20px;   
+}
+.footer-nav ul li a{
+  text-decoration: none;
+  outline: none;
+  font-family: 'Roboto Slab', serif;
+  font-size: 20px;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.footer-nav ul li a:hover{
+  color:#888;
+}
+
+.footer-nav1{
+  width: 100%;
+  height: auto;
+  margin: auto;
+  margin-top: 15px;
+}
+.footer-nav1 ul{
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+}
+
+
+.footer-nav1 ul li{
+  display: inline-block;
+  margin: 0px 20px;  
+}
+.footer-nav1 ul li a{
+  text-decoration: none;
+  outline: none;
+  font-family: 'Roboto Slab', serif;
+  font-size: 20px;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.footer-nav1 ul li a:hover{
+  color: #888;
+}
+.footer-nav2{
+  width: 100%;
+  height: auto;
+  margin: auto;
+}
+.footer-nav2 ul{
+  
+  text-align: center;
+}
+
+.footer-nav2 ul li{
+  
+  width: 50px;
+  height: 50px;
+  margin: 0px 10px;
+  border-radius: 100%;
+  background:#fff; 
+}
+.footer-nav2 ul li a{
+  text-decoration: none;
+  color:#000;
+  font-size: 25px;
+  display: block;
+}
+.footer-nav2 ul li a i{
+  line-height: 50px;
+}
+.footer-nav2 ul li:hover{
+  background:#888;
+}
+.footer-nav2 ul li a:hover >i{
+  transform: scale(1.6) rotate(180deg);
+}
+.footer-end{
+  height: auto;
+  margin: auto;
+     background: linear-gradient(to right, #fa9e1b, #8d4fff );
+  padding: 10px;
+  font-family: 'Roboto Slab', serif;
+  font-size: 16px;
+  text-align: center;
+  border-top: 1px solid #fff;
+}
+
+.footer-end p{
+  font-family: 'Roboto Slab', serif;
+  font-size: 16px;
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+  letter-spacing: 2px;
+
+}
+.footer-end a{
+
+text-decoration: none;
+color:#fff
+}
+.footer-end a:hover{
+  color:#888;
+}
+
+@media(max-width:691px ){
+.footer-nav1 ul li a,.footer-nav ul li a{
+  font-size: 16px;
+}
+}
+@media(max-width:604px ){
+.footer-nav1 ul li a,.footer-nav ul li a{
+  font-size: 14px;
+}
+.footer-nav ul li{
+  padding: 0px ;
+}
+}
+@media(max-width:559px ){
+
+.footer-nav1 ul li a,.footer-nav ul li a{
+  font-size: 13px;
+}
+
+}
+@media(max-width:539px ){
+.footer-nav1 ul li a,.footer-nav ul li a{
+  font-size: 11px;
+}
+.footer-nav ul li{
+  margin: 5px 20px;
+}
+.footer-nav ul li.p1 {
+    padding-top: 10px;
+}
+}
+@media(max-width:380px ){
+  .footer-nav ul li,.footer-nav1 ul li{
+    display: block;
+    padding: 5px;
+  }
+.footer-nav2 ul li{
+  display: none;
+}
+.footer-icon ul li a i {
+    line-height: 38px;
+}
+.footer-icon ul li a{
+  font-size: 20px;
+}
+.footer-icon ul li{
+width: 40px;
+    height: 40px;
+}
+}
+@media(max-width: 375px){
+  .footer-nav ul li.p1 {
+    padding-top: 0px;
+}
+}

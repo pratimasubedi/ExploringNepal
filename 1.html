@@ -1,0 +1,209 @@
+
+<link rel="stylesheet" type="text/css" href="css/footer.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" type="text/css" href="css/contact.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+<!-- navbar -->
+
+<header class="header">
+
+<div class="top-bar">
+
+  <ul class="abx">
+<li class="social_list_item"><a href="#"><i class="fa fa-pinterest"></i></a></li>
+<li class="social_list_item"><a href="#"><i class="fa fa-facebook"></i></a></li>
+<li class="social_list_item"><a href="#"><i class="fa fa-twitter"></i></a></li>
+<li class="social_list_item"><a href="#"><i class="fa fa-linkedin"></i></a></li>
+<li class="social_list"><marquee>HEAVEN IS MYTH NEPAL IS REAL</marquee></li>
+<li class="social"><a href=""><i class="fa fa-phone"><span class="span">9823405666</span></i></a></li>
+<li class="social-1"><a href=""><i class="fa fa-envelope"><span class="span">pratima@gmail.com</span></i></a></li>
+
+</ul>
+
+
+</div>
+
+<nav class="main-nav">
+
+ <a  class="main" href="#">Logo</a>
+
+<ul class="main-nav-list">
+<li class="main-nav-item"><a href="home.html">Home</a></li>
+<li class="main-nav-item"><a href="about.html">About us</a></li>
+<li class="main-nav-item"><a href="album.html">Gallery</a></li>
+<li class="main-nav-item"><a href="videos.html">Videos</a></li>
+<li class="main-nav-item"><a href="destination.html">Destination</a></li>
+<li class="main-nav-item"><a href="activity.html">Activities</a></li>
+<li class="main-nav-item"><a href="contact.html">Contact</a></li>
+</ul>
+
+</nav>
+</header>
+
+<!--end of Navbar -->
+
+<div class="container-fluid  rachana">
+  
+</div>
+<div class="container-fluid c-f">
+<div class="contact-form">
+ <h1><span class="shadow-red">K</span>eep  <span class="shadow-red">I</span>n  <span class="shadow-red">T</span>ouch</h1>
+ <form  class="c" method="post" action="#"> 
+  <table border="0" cellspacing="0" cellpadding="0"> 
+                                   <tr> 
+  <td><label>Name:</label></td> 
+  <td><input  class="abc" type="text" name="name" tabindex="1" id="name"><i class="fa fa-user"></i></td> 
+   </tr> 
+   <tr> 
+    <td><label>Email:</label></td> 
+    <td><input class="abc" type="email" name="mail" id="email"><i class="fa fa-envelope"></i></td> 
+   </tr> 
+   <tr> 
+    <td><label>Phone:</label></td> 
+       <td><input class="abc" type="text" name="num" id="num"><i class="fa fa-phone"></i></td> 
+   </tr> 
+   <tr> 
+    <td><label>Country:</label></td> 
+    <td> 
+     <select class="abc" name="country" tabindex="2" id="count"> 
+      <option value="">Please Select</option> 
+      <option value="U">USA</option> 
+      <option value="C">China</option> 
+      <option value="N" selected>Nepal</option> 
+      <option value="E">UK</option> 
+     </select> 
+    </td> 
+   </tr> 
+   <tr> 
+    <td><label>Gender:</label></td> 
+    <td><label for="male">M</label><input  type="radio" name="gender" 
+     id="male"> 
+     <label for="female">F</label><input type="radio" name="gender" id="female"></td> 
+    </tr> 
+    <tr> 
+     <td><label>Interest:</label></td> 
+     <td height="40">Cricket<input type="checkbox" name="cricket" id="cric"> 
+      Swimming<input type="checkbox" name="Swimming" id="swim"> 
+      Travelling<input type="checkbox" name="Travelling" id="travel"></td> 
+     </tr> 
+    </table> 
+    <input  class="submit" type="submit" value="submit" onclick="form_validation()"><br/> 
+   </form> 
+   </div>
+ </div>
+  <script language="javascript"> 
+   function form_validation() 
+   { 
+    var n=document.getElementById("name").value; 
+    var em=document.getElementById("email").value; 
+    var nu=document.getElementById("num").value; 
+    var ma=document.getElementById("male").checked; 
+    var fe=document.getElementById("female").checked; 
+    var cr=document.getElementById("cric").checked; 
+    var sw=document.getElementById("swim").checked; 
+    var tr=document.getElementById("travel").checked; 
+    var co=document.getElementById("count").value; 
+    var pattern= /^[ a-zA-Z ]+$/; 
+    var pnum=/^[0-9]+$/; 
+    var atpos=em.indexOf("@"); 
+    var dotpos=em.lastIndexOf("."); 
+    var l=nu.length; 
+    if(n==''||em==''||nu=='') 
+    { 
+     alert("All fields are required"); 
+    } 
+    else if(!n.match(pattern)) 
+    { 
+     alert("Name can only contain alphabet and whitespace"); 
+    } 
+    else if(l<9) 
+    { 
+     alert("Number must be atleast 9 digits long"); 
+    } 
+    else if(!nu.match(pnum))  
+    { 
+     alert("Num can only contain numbers"); 
+    } 
+    else if(atpos<1 && dotpos<2) 
+    { 
+     alert("Email invalid") 
+    } 
+    else if(co=='') 
+    { 
+     alert("Country should be selected"); 
+    } 
+    else if(ma==0 && fe==0) 
+    { 
+     alert("Atleast one gender should be selected"); 
+    } 
+    else if(cr==''&& sw==''&&tr=='') 
+    { 
+     alert("At least one interest should be checked"); 
+    } 
+    else 
+    { 
+     alert("Your form has been submitted"); 
+    } 
+   } 
+  </script> 
+
+ 
+
+<!-- footer -->
+<div class="footer-1">
+  <ul>
+    <li class="f1"><marquee>It’s Time For a New Adventure! Don’t Wait Any Longer. Contact us!</marquee></li>
+    <li class="f2"><a href="">Book Destination</a></li>
+  </ul>
+  </div>
+<div class=" container-fluid footer-footer">
+      <div class="footer-icon">
+        <ul>
+          <li><a href="#" target="black"><i class="fa fa-facebook" style="font-size:25px;color:#000;"></i></a></li>
+          <li><a href="#" target="black"><i class="fa fa-google-plus" style="font-size:25px;color:#000;"></i></a></li>
+          <li><a href="#" target="black"><i class="fa fa-twitter" style="font-size:25px;color:#000;"></i></a></li>
+          <li><a href="#" target="black"><i class="fa fa-instagram" style="font-size:25px;color:#000;"></i></a></li>
+          <li><a href="#" target="black"><i class="fa fa-youtube-play" style="font-size:25px;color:#000;"></i></a></li>
+        </ul>
+      </div>
+      <div class="footer-nav">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Gallery</a></li>
+          <li class="p1"><a href="#">Contact Us</a></li>
+          
+
+        </ul>
+      </div>
+      <div class="footer-nav1">
+        <ul>
+          <li><a href="#">Product</a></li>
+          <li><a href="#">new</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Media</a></li>
+          
+          
+        </ul>
+      </div>
+
+      <div class="footer-nav2">
+        <ul>
+          
+          <li><a href="#" title="To Top"><i class="fa fa-chevron-down"></i></a></li>
+          
+        </ul>
+      </div>
+   </div>
+
+   <div class="footer-end">
+      <p>Desing By: <a href="#">NCC.com</a></p>
+   </div>
+
+
+
+<!-- end of footer -->

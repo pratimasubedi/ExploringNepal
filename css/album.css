@@ -1,0 +1,155 @@
+.rachana{
+    border: 1px solid #fff;
+    height:150px;
+}
+   .gallery h1{
+ 
+    font-family: Poppins,sans-serif;
+    font-weight: 600;
+    line-height: 1.7;
+    margin-bottom: 1.6rem;
+    font-size: 36px;
+    text-align: center;
+   
+     text-shadow: 2px 2px 4px #000;
+    color: #fff;
+}
+
+.g-1{
+    box-shadow: 20px 20px 20px 0;
+}
+.g-1:hover{
+    box-shadow: 20px 0  20px 0;
+}
+
+  .pad-tb{
+    padding:50px 0;
+  }
+
+.album-col {
+    display: inline-block;
+    width:30%;
+    height: 250px;
+    background: radial-gradient(#6e6e6e,#2f2f2f);
+    background: -moz-radial-gradient(#6e6e6e,#2f2f2f);
+    position: relative;
+    overflow: hidden;
+    margin-right: 30px;
+    margin-bottom: 30px;
+
+}
+
+
+  .btn-albumread{
+    background: transparent;
+    border-radius: 0;
+    border: 1px solid #ffffff;
+    color: #fff;
+    padding:10px;
+  }
+
+  .btn-albumread:hover{
+    color: #fff;
+  }
+  .album-title{
+    color: #555;
+    padding-bottom: 30px;
+    padding-top: 40px;
+  }
+
+
+  .album-col .album-content{
+    position: absolute;
+    text-align: center;
+    padding: 10px 19px 19px 19px;
+    width: 100%;
+    height: 100%;
+    border-top: 1px solid #fff;
+    background: rgba(0, 0, 0, 0.71);
+    bottom: -96%;
+    transition: ease-in-out .5s;  
+  }
+   
+  .album-col:hover .album-content {
+    bottom:-43%;
+    text-align: center;
+    padding: 90px 19px 19px 19px;
+
+  }
+  
+  .album-col .album-content h3{
+    margin: 0;
+    color: #fff;
+        padding-bottom: 25px;
+  }
+  
+  .album-col img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+
+
+
+/* div#church-container {
+
+    overflow: hidden;
+    position: relative;
+    width: 80%;
+    margin: 50px auto;
+    max-width: 1000px;
+}
+div#church-container input[type="radio"] { display: none; }
+div#church-container label img { 
+ width: 20%;
+ display: block;
+ float: left;
+ clear: left;
+ border-right: 40px solid #fff;
+ margin-bottom: 10px;
+}
+div#church-container label:hover { cursor: pointer; 
+}
+div#churches { 
+ width: 90%;
+ position: relative;
+ margin-left: 22.5%;
+}
+div#churches figure { 
+ margin: 0;
+ position: absolute;
+ height: 100%;
+ opacity: 0;
+ transform: scale(.8);
+ transition: .5s all linear;
+ width: 100%;
+}
+div#churches figure img { 
+ width: 100%;
+ height: 620px;
+}
+div#churches figure figcaption { 
+ position: relative;
+ background: rgba(0,0,0,.6);
+ color: #fff;
+ font-size: 1rem;
+ padding: 1rem;
+ transition: 1s 1s all linear;
+ margin-top: 1.6rem;
+ line-height: 1.4;
+ text-align: left;
+}
+#vallbona:checked~#churches #monges,
+#woodward:checked~#churches #presby,
+#woodward2:checked~#churches #presby2 { 
+ opacity: 1;
+ transform: scale(1);
+}
+#vallbona:checked~#churches #monges figcaption, 
+#woodward:checked~#churches #presby figcaption,
+#woodward2:checked~#churches #presby2 figcaption { 
+  top: -5rem; 
+}
+
+
+   */

@@ -1,0 +1,57 @@
+<html> 
+<head> 
+<title>contact</title> 
+<link rel="stylesheet" type="text/css" href="style.css">
+</head> 
+<body>
+<img src="visit.png" class="av">
+<h5 class="end">Lets Visit Beautiful Country Nepal..</h5>
+<div class="login-box">
+<img src="logo.jpg" class="avatar"> 
+<h1>CONTACT US!</h1>
+<form> 
+<p>Name</p><input type="text" name="name" id="name">
+<p>Email</p><input type="text"name="emailadd" id="email">
+<p>Phone</p><input type="text"name="phone" id="phone"> 
+<p>country</p><select id="country">
+<option value="N">Nepal</option>
+<option value="I">SAARC</option>
+<option value="o">OTHERS</option></select>
+<p><textarea id="mes" placeholder="message here.."></textarea></p>
+<input type="submit" onclick="form_validation()">
+</form>
+</body>
+<script language="javascript">
+function form_validation(){
+var na=document.getElementById("name").value;
+var em=document.getElementById("email").value;
+var p=document.getElementById("phone").value;
+var c=document.getElementById("country").value;
+var atpos=em.indexOf("@");
+var dtpos=em.lastIndexOf(".");
+var l=p.length;
+if(na=='' ||em=='' ||p=='' ||c==''){
+
+alert("all field are required");
+
+}
+else if(!na.match(/^[a-zA-Z]+$/)){
+alert("name only contain alphabet and white space");
+}
+else if(l<9)
+{
+alert("phone number must be atleast 9 digits long");
+}
+else if(c==''){
+alert("country should be selected");
+}
+else if(atpos<1&&dtpos<2){
+alert("email invalid");
+}
+
+else{
+alert("your form has been submitted");
+}
+}
+</script>
+</html>
